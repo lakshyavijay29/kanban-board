@@ -1,0 +1,32 @@
+.column {
+    min-width: 300px;
+    background-color: #f4f5f8;
+    border-radius: 8px;
+  }
+  
+  .column-header {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .column-content {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .ticket-count {
+    /* background-color: #e0e0e0; */
+    padding-top: 4px;
+    font-size: 14px;
+  }
+
+  .priority-header {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adds space between the icon and title */
+  }
+  
